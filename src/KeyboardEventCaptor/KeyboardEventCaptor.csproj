@@ -13,12 +13,12 @@
     <Copyright>Allen Cui</Copyright>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-    <Version>1.0.0</Version>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Set the working thread as background, allowing application to quit without calling Stop.</PackageReleaseNotes>
     <AssemblyName>SecretNest.KeyboardEventCaptor</AssemblyName>
     <Configurations>Debug;Release</Configurations>
     <RepositoryUrl>https://github.com/SecretNest/KeyboardEventCaptor</RepositoryUrl>
-    <PackageTags>Keyboard event linux</PackageTags>
+    <PackageTags>Keyboard event Linux</PackageTags>
     <DocumentationFile>bin\KeyboardEventCaptor.xml</DocumentationFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <LangVersion>latest</LangVersion>

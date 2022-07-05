@@ -62,7 +62,10 @@ namespace SecretNest.KeyboardEventCaptor
                 _stream = new FileStream(_fileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
 
                 _working = true;
-                _job = new Thread(Read);
+                _job = new Thread(Read)
+                {
+                    IsBackground = true
+                };
                 _job.Start();
             }
         }
