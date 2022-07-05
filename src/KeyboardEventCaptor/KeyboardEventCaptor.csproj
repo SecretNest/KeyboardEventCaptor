@@ -1,0 +1,27 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>SecretNest.KeyboardEventCaptor</RootNamespace>
+    <PackageId>SecretNest.KeyboardEventCaptor</PackageId>
+    <Authors>Allen Cui</Authors>
+    <Company>SecretNest.info</Company>
+    <Description>Captures the event from Device File System of Linux.</Description>
+    <PackageProjectUrl>https://github.com/SecretNest/KeyboardEventCaptor</PackageProjectUrl>
+    <Product>KeyboardEventCaptor</Product>
+    <Copyright>Allen Cui</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <AssemblyName>SecretNest.KeyboardEventCaptor</AssemblyName>
+    <Configurations>Debug;Release</Configurations>
+    <RepositoryUrl>https://github.com/SecretNest/KeyboardEventCaptor</RepositoryUrl>
+    <PackageTags>Keyboard event linux</PackageTags>
+    <DocumentationFile>bin\KeyboardEventCaptor.xml</DocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+</Project>
